@@ -1,6 +1,6 @@
 FROM ruby:3-buster
 
-ENV APP_DIR=/opt/regentcollege/current
+ENV APP_DIR=/var/www/housing/current
 
 RUN apt-get update && apt-get -y upgrade
 
